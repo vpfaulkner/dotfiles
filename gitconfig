@@ -19,7 +19,7 @@
   st = status
   up = !git fetch origin && git rebase origin/master
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/vpfaulkner/.gitignore
   autocrlf = input
 [merge]
   ff = only
@@ -29,3 +29,6 @@
   prune = true
 [include]
   path = ~/.gitconfig.local
+[user]
+	name = Vance Faulkner
+	email = vance@validic.com
